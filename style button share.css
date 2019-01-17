@@ -1,0 +1,2363 @@
+.eapps-widget {
+  -webkit-font-smoothing: antialiased;
+  animation: none;
+  animation-delay: 0;
+  animation-direction: normal;
+  animation-duration: 0;
+  animation-fill-mode: none;
+  animation-iteration-count: 1;
+  animation-name: none;
+  animation-play-state: running;
+  animation-timing-function: ease;
+  backface-visibility: visible;
+  background: 0;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border: 0;
+  border-style: none;
+  border-width: medium;
+  border-color: inherit;
+  border-bottom: 0;
+  border-bottom-color: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-collapse: separate;
+  border-image: none;
+  border-left: 0;
+  border-left-color: inherit;
+  border-left-style: none;
+  border-left-width: medium;
+  border-radius: 0;
+  border-right: 0;
+  border-right-color: inherit;
+  border-right-style: none;
+  border-right-width: medium;
+  border-spacing: 0;
+  border-top: 0;
+  border-top-color: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-style: none;
+  border-top-width: medium;
+  bottom: auto;
+  box-shadow: none;
+  box-sizing: content-box;
+  caption-side: top;
+  clear: none;
+  clip: auto;
+  color: inherit;
+  columns: auto;
+  column-count: auto;
+  column-fill: balance;
+  column-gap: normal;
+  column-rule: medium none currentColor;
+  column-rule-color: currentColor;
+  column-rule-style: none;
+  column-rule-width: none;
+  column-span: 1;
+  column-width: auto;
+  content: normal;
+  counter-increment: none;
+  counter-reset: none;
+  direction: ltr;
+  empty-cells: show;
+  float: none;
+  font: normal;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: auto;
+  hyphens: none;
+  left: auto;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  opacity: 1;
+  orphans: 0;
+  outline: 0;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: medium;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  page-break-after: auto;
+  page-break-before: auto;
+  page-break-inside: auto;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  position: static;
+  quotes: '\201C' '\201D' '\2018' '\2019';
+  right: auto;
+  tab-size: 8;
+  table-layout: auto;
+  text-align: inherit;
+  text-align-last: auto;
+  text-decoration: none;
+  text-decoration-color: inherit;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  transform-style: flat;
+  transition: none;
+  transition-delay: 0s;
+  transition-duration: 0s;
+  transition-property: none;
+  transition-timing-function: ease;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: visible;
+  white-space: normal;
+  widows: 0;
+  width: auto;
+  word-spacing: normal;
+  z-index: auto;
+}
+.eapps-social-share-buttons {
+  display: block;
+  position: relative;
+  font: 400 12px/1.555 Roboto, Arial, sans-serif;
+  transform: translate3d(0, 0, 0);
+}
+.eapps-social-share-buttons-inner {
+  display: inline-block;
+}
+.eapps-social-share-buttons-item {
+  height: 40px;
+  line-height: 40px;
+  min-width: 82px;
+  width: 144px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 0;
+}
+.eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.eapps-social-share-buttons-item::after {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+}
+.eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-item-text {
+  position: relative;
+  z-index: 2;
+}
+.eapps-social-share-buttons-item-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  backface-visibility: hidden;
+  transition: all 0.2s ease;
+}
+.eapps-social-share-buttons-item-icon-container {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+  transition: all 0.2s ease;
+}
+.eapps-social-share-buttons-item-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  padding: 0 10px 0 40px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  backface-visibility: hidden;
+}
+.eapps-social-share-buttons-item:hover::before {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0s ease 0.2s;
+}
+.eapps-social-share-buttons-item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.eapps-social-share-buttons-icon-hide .eapps-social-share-buttons-item {
+  text-align: center;
+  min-width: 52px;
+}
+.eapps-social-share-buttons-icon-hide .eapps-social-share-buttons-item-icon-container {
+  display: none;
+}
+.eapps-social-share-buttons-icon-hide .eapps-social-share-buttons-item-text {
+  padding: 0 10px;
+  text-align: center;
+}
+.eapps-social-share-buttons-text-hide .eapps-social-share-buttons-item {
+  text-align: center;
+  width: 40px;
+  min-width: 40px;
+}
+.eapps-social-share-buttons-text-hide .eapps-social-share-buttons-item-icon-container {
+  left: 50%;
+  margin-left: -20px;
+}
+.eapps-social-share-buttons-text-hide .eapps-social-share-buttons-item-text {
+  display: none;
+}
+.eapps-social-share-buttons-location-inline.eapps-social-share-buttons-position-left {
+  text-align: left;
+}
+.eapps-social-share-buttons-location-inline.eapps-social-share-buttons-position-center {
+  text-align: center;
+}
+.eapps-social-share-buttons-location-inline.eapps-social-share-buttons-position-right {
+  text-align: right;
+}
+.eapps-social-share-buttons-location-floating {
+  position: fixed !important;
+  z-index: 1000000 !important;
+  margin: 0 !important;
+}
+.eapps-social-share-buttons-location-floating.eapps-social-share-buttons-position-left {
+  left: 0;
+  top: 50%;
+  text-align: left;
+  transform: translateY(-50%);
+}
+.eapps-social-share-buttons-location-floating.eapps-social-share-buttons-position-left .eapps-social-share-buttons-mobile-button-open {
+  left: 0;
+}
+.eapps-social-share-buttons-location-floating.eapps-social-share-buttons-position-center {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.eapps-social-share-buttons-location-floating.eapps-social-share-buttons-position-center .eapps-social-share-buttons-mobile-button-open {
+  left: 50%;
+  margin-left: -20px;
+}
+.eapps-social-share-buttons-location-floating.eapps-social-share-buttons-position-right {
+  right: 0;
+  text-align: right;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.eapps-social-share-buttons-location-floating.eapps-social-share-buttons-position-right .eapps-social-share-buttons-mobile-button-open {
+  right: 0;
+}
+@media screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-hide {
+    display: none;
+  }
+}
+.eapps-social-share-buttons-shape-circle .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-shape-circle .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-shape-circle .eapps-social-share-buttons-item::after {
+  border-radius: 50%;
+}
+.eapps-social-share-buttons-shape-rectangle .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-shape-rectangle .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-shape-rectangle .eapps-social-share-buttons-item::after {
+  border-radius: 0;
+}
+.eapps-social-share-buttons-shape-rounded .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-shape-rounded .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-shape-rounded .eapps-social-share-buttons-item::after {
+  border-radius: 4px;
+}
+.eapps-social-share-buttons-shape-sausage .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-shape-sausage .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-shape-sausage .eapps-social-share-buttons-item::after {
+  border-radius: 20px;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-amazon::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-amazon::after {
+  background-color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-amazon::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-amazon::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-amazon::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-amazon::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-amazon::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-amazon::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-amazon::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-amazon::after .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-amazon .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-amazon:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-amazon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-amazon:hover {
+  border-color: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-amazon .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-amazon:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-amazon .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-amazon:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-amazon .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-amazon:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-amazon .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-amazon:hover .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-blogger::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-blogger::after {
+  background-color: #ff8b13;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-blogger::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-blogger::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-blogger::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-blogger::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff8b13;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-blogger::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-blogger::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-blogger::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-blogger::after .eapps-social-share-buttons-item-text * {
+  color: #ff8b13;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-blogger .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-blogger:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-blogger,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-blogger:hover {
+  border-color: #ff8b13;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-blogger .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-blogger:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-blogger .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-blogger:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff8b13;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-blogger .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-blogger:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-blogger .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-blogger:hover .eapps-social-share-buttons-item-text * {
+  color: #ff8b13;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-buffer::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-buffer::after {
+  background-color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-buffer::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-buffer::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-buffer::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-buffer::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-buffer::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-buffer::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-buffer::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-buffer::after .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-buffer .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-buffer:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-buffer,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-buffer:hover {
+  border-color: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-buffer .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-buffer:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-buffer .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-buffer:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-buffer .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-buffer:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-buffer .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-buffer:hover .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-digg::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-digg::after {
+  background-color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-digg::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-digg::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-digg::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-digg::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-digg::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-digg::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-digg::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-digg::after .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-digg .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-digg:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-digg,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-digg:hover {
+  border-color: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-digg .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-digg:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-digg .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-digg:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-digg .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-digg:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-digg .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-digg:hover .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-douban::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-douban::after {
+  background-color: #00b919;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-douban::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-douban::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-douban::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-douban::after .eapps-social-share-buttons-item-icon * {
+  fill: #00b919;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-douban::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-douban::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-douban::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-douban::after .eapps-social-share-buttons-item-text * {
+  color: #00b919;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-douban .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-douban:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-douban,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-douban:hover {
+  border-color: #00b919;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-douban .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-douban:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-douban .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-douban:hover .eapps-social-share-buttons-item-icon * {
+  fill: #00b919;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-douban .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-douban:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-douban .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-douban:hover .eapps-social-share-buttons-item-text * {
+  color: #00b919;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-email::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-email::after {
+  background-color: #f4cd0b;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-email::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-email::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-email::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-email::after .eapps-social-share-buttons-item-icon * {
+  fill: #f4cd0b;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-email::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-email::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-email::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-email::after .eapps-social-share-buttons-item-text * {
+  color: #f4cd0b;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-email .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-email:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-email,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-email:hover {
+  border-color: #f4cd0b;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-email .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-email:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-email .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-email:hover .eapps-social-share-buttons-item-icon * {
+  fill: #f4cd0b;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-email .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-email:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-email .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-email:hover .eapps-social-share-buttons-item-text * {
+  color: #f4cd0b;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-evernote::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-evernote::after {
+  background-color: #2dbe60;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-evernote::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-evernote::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-evernote::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-evernote::after .eapps-social-share-buttons-item-icon * {
+  fill: #2dbe60;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-evernote::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-evernote::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-evernote::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-evernote::after .eapps-social-share-buttons-item-text * {
+  color: #2dbe60;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-evernote .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-evernote:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-evernote,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-evernote:hover {
+  border-color: #2dbe60;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-evernote .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-evernote:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-evernote .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-evernote:hover .eapps-social-share-buttons-item-icon * {
+  fill: #2dbe60;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-evernote .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-evernote:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-evernote .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-evernote:hover .eapps-social-share-buttons-item-text * {
+  color: #2dbe60;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-facebook::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-facebook::after {
+  background-color: #3e68c0;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-facebook::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-facebook::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-facebook::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-facebook::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e68c0;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-facebook::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-facebook::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-facebook::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-facebook::after .eapps-social-share-buttons-item-text * {
+  color: #3e68c0;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-facebook .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-facebook:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-facebook,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-facebook:hover {
+  border-color: #3e68c0;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-facebook .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-facebook:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-facebook .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-facebook:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e68c0;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-facebook .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-facebook:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-facebook .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-facebook:hover .eapps-social-share-buttons-item-text * {
+  color: #3e68c0;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-fb-messenger::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger::after {
+  background-color: #1f8bf8;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-fb-messenger::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-fb-messenger::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger::after .eapps-social-share-buttons-item-icon * {
+  fill: #1f8bf8;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-fb-messenger::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-fb-messenger::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger::after .eapps-social-share-buttons-item-text * {
+  color: #1f8bf8;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-fb-messenger .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-fb-messenger:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-fb-messenger,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger:hover {
+  border-color: #1f8bf8;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-fb-messenger .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-fb-messenger .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger:hover .eapps-social-share-buttons-item-icon * {
+  fill: #1f8bf8;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-fb-messenger .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-fb-messenger .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-fb-messenger:hover .eapps-social-share-buttons-item-text * {
+  color: #1f8bf8;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flattr::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flattr::after {
+  background-color: #f67c1a;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flattr::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flattr::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flattr::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flattr::after .eapps-social-share-buttons-item-icon * {
+  fill: #f67c1a;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flattr::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flattr::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flattr::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flattr::after .eapps-social-share-buttons-item-text * {
+  color: #f67c1a;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-flattr .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-flattr:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flattr,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flattr:hover {
+  border-color: #f67c1a;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flattr .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flattr:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flattr .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flattr:hover .eapps-social-share-buttons-item-icon * {
+  fill: #f67c1a;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flattr .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flattr:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flattr .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flattr:hover .eapps-social-share-buttons-item-text * {
+  color: #f67c1a;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flipboard::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flipboard::after {
+  background-color: #f43d3d;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flipboard::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flipboard::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flipboard::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flipboard::after .eapps-social-share-buttons-item-icon * {
+  fill: #f43d3d;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flipboard::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flipboard::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-flipboard::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-flipboard::after .eapps-social-share-buttons-item-text * {
+  color: #f43d3d;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-flipboard .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-flipboard:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flipboard,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flipboard:hover {
+  border-color: #f43d3d;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flipboard .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flipboard:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flipboard .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flipboard:hover .eapps-social-share-buttons-item-icon * {
+  fill: #f43d3d;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flipboard .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flipboard:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-flipboard .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-flipboard:hover .eapps-social-share-buttons-item-text * {
+  color: #f43d3d;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-gmail::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-gmail::after {
+  background-color: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-gmail::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-gmail::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-gmail::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-gmail::after .eapps-social-share-buttons-item-icon * {
+  fill: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-gmail::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-gmail::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-gmail::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-gmail::after .eapps-social-share-buttons-item-text * {
+  color: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-gmail .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-gmail:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-gmail,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-gmail:hover {
+  border-color: #f63329;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-gmail .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-gmail:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-gmail .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-gmail:hover .eapps-social-share-buttons-item-icon * {
+  fill: #f63329;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-gmail .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-gmail:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-gmail .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-gmail:hover .eapps-social-share-buttons-item-text * {
+  color: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-google-plus::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-google-plus::after {
+  background-color: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-google-plus::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-google-plus::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-google-plus::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-google-plus::after .eapps-social-share-buttons-item-icon * {
+  fill: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-google-plus::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-google-plus::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-google-plus::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-google-plus::after .eapps-social-share-buttons-item-text * {
+  color: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-google-plus .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-google-plus:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-google-plus,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-google-plus:hover {
+  border-color: #f63329;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-google-plus .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-google-plus:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-google-plus .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-google-plus:hover .eapps-social-share-buttons-item-icon * {
+  fill: #f63329;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-google-plus .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-google-plus:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-google-plus .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-google-plus:hover .eapps-social-share-buttons-item-text * {
+  color: #f63329;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hatena::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hatena::after {
+  background-color: #00b0e3;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hatena::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hatena::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hatena::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hatena::after .eapps-social-share-buttons-item-icon * {
+  fill: #00b0e3;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hatena::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hatena::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hatena::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hatena::after .eapps-social-share-buttons-item-text * {
+  color: #00b0e3;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-hatena .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-hatena:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hatena,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hatena:hover {
+  border-color: #00b0e3;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hatena .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hatena:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hatena .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hatena:hover .eapps-social-share-buttons-item-icon * {
+  fill: #00b0e3;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hatena .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hatena:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hatena .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hatena:hover .eapps-social-share-buttons-item-text * {
+  color: #00b0e3;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hackernews::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hackernews::after {
+  background-color: #f60;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hackernews::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hackernews::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hackernews::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hackernews::after .eapps-social-share-buttons-item-icon * {
+  fill: #f60;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hackernews::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hackernews::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-hackernews::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-hackernews::after .eapps-social-share-buttons-item-text * {
+  color: #f60;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-hackernews .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-hackernews:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hackernews,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hackernews:hover {
+  border-color: #f60;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hackernews .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hackernews:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hackernews .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hackernews:hover .eapps-social-share-buttons-item-icon * {
+  fill: #f60;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hackernews .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hackernews:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-hackernews .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-hackernews:hover .eapps-social-share-buttons-item-text * {
+  color: #f60;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-kakaotalk::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk::after {
+  background-color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-kakaotalk::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-kakaotalk::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-kakaotalk::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-kakaotalk::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk::after .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-kakaotalk .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-kakaotalk:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-kakaotalk,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk:hover {
+  border-color: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-kakaotalk .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-kakaotalk .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-kakaotalk .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-kakaotalk .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-kakaotalk:hover .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-line::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-line::after {
+  background-color: #00b900;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-line::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-line::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-line::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-line::after .eapps-social-share-buttons-item-icon * {
+  fill: #00b900;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-line::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-line::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-line::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-line::after .eapps-social-share-buttons-item-text * {
+  color: #00b900;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-line .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-line:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-line,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-line:hover {
+  border-color: #00b900;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-line .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-line:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-line .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-line:hover .eapps-social-share-buttons-item-icon * {
+  fill: #00b900;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-line .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-line:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-line .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-line:hover .eapps-social-share-buttons-item-text * {
+  color: #00b900;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-linkedin::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-linkedin::after {
+  background-color: #15ace5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-linkedin::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-linkedin::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-linkedin::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-linkedin::after .eapps-social-share-buttons-item-icon * {
+  fill: #15ace5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-linkedin::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-linkedin::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-linkedin::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-linkedin::after .eapps-social-share-buttons-item-text * {
+  color: #15ace5;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-linkedin .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-linkedin:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-linkedin,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-linkedin:hover {
+  border-color: #15ace5;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-linkedin .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-linkedin:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-linkedin .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-linkedin:hover .eapps-social-share-buttons-item-icon * {
+  fill: #15ace5;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-linkedin .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-linkedin:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-linkedin .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-linkedin:hover .eapps-social-share-buttons-item-text * {
+  color: #15ace5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-livejournal::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-livejournal::after {
+  background-color: #2cbae5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-livejournal::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-livejournal::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-livejournal::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-livejournal::after .eapps-social-share-buttons-item-icon * {
+  fill: #2cbae5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-livejournal::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-livejournal::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-livejournal::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-livejournal::after .eapps-social-share-buttons-item-text * {
+  color: #2cbae5;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-livejournal .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-livejournal:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-livejournal,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-livejournal:hover {
+  border-color: #2cbae5;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-livejournal .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-livejournal:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-livejournal .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-livejournal:hover .eapps-social-share-buttons-item-icon * {
+  fill: #2cbae5;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-livejournal .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-livejournal:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-livejournal .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-livejournal:hover .eapps-social-share-buttons-item-text * {
+  color: #2cbae5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-managewp::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-managewp::after {
+  background-color: #008feb;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-managewp::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-managewp::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-managewp::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-managewp::after .eapps-social-share-buttons-item-icon * {
+  fill: #008feb;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-managewp::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-managewp::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-managewp::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-managewp::after .eapps-social-share-buttons-item-text * {
+  color: #008feb;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-managewp .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-managewp:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-managewp,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-managewp:hover {
+  border-color: #008feb;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-managewp .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-managewp:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-managewp .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-managewp:hover .eapps-social-share-buttons-item-icon * {
+  fill: #008feb;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-managewp .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-managewp:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-managewp .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-managewp:hover .eapps-social-share-buttons-item-text * {
+  color: #008feb;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-meneame::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-meneame::after {
+  background-color: #ff6400;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-meneame::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-meneame::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-meneame::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-meneame::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff6400;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-meneame::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-meneame::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-meneame::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-meneame::after .eapps-social-share-buttons-item-text * {
+  color: #ff6400;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-meneame .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-meneame:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-meneame,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-meneame:hover {
+  border-color: #ff6400;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-meneame .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-meneame:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-meneame .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-meneame:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff6400;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-meneame .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-meneame:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-meneame .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-meneame:hover .eapps-social-share-buttons-item-text * {
+  color: #ff6400;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-myspace::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-myspace::after {
+  background-color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-myspace::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-myspace::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-myspace::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-myspace::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-myspace::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-myspace::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-myspace::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-myspace::after .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-myspace .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-myspace:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-myspace,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-myspace:hover {
+  border-color: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-myspace .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-myspace:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-myspace .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-myspace:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-myspace .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-myspace:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-myspace .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-myspace:hover .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-naver::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-naver::after {
+  background-color: #00d037;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-naver::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-naver::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-naver::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-naver::after .eapps-social-share-buttons-item-icon * {
+  fill: #00d037;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-naver::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-naver::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-naver::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-naver::after .eapps-social-share-buttons-item-text * {
+  color: #00d037;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-naver .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-naver:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-naver,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-naver:hover {
+  border-color: #00d037;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-naver .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-naver:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-naver .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-naver:hover .eapps-social-share-buttons-item-icon * {
+  fill: #00d037;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-naver .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-naver:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-naver .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-naver:hover .eapps-social-share-buttons-item-text * {
+  color: #00d037;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-newsvine::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-newsvine::after {
+  background-color: #00a54c;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-newsvine::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-newsvine::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-newsvine::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-newsvine::after .eapps-social-share-buttons-item-icon * {
+  fill: #00a54c;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-newsvine::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-newsvine::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-newsvine::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-newsvine::after .eapps-social-share-buttons-item-text * {
+  color: #00a54c;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-newsvine .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-newsvine:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-newsvine,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-newsvine:hover {
+  border-color: #00a54c;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-newsvine .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-newsvine:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-newsvine .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-newsvine:hover .eapps-social-share-buttons-item-icon * {
+  fill: #00a54c;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-newsvine .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-newsvine:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-newsvine .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-newsvine:hover .eapps-social-share-buttons-item-text * {
+  color: #00a54c;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-odnoklassniki::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki::after {
+  background-color: #ff8321;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-odnoklassniki::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-odnoklassniki::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff8321;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-odnoklassniki::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-odnoklassniki::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki::after .eapps-social-share-buttons-item-text * {
+  color: #ff8321;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-odnoklassniki .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-odnoklassniki:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-odnoklassniki,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki:hover {
+  border-color: #ff8321;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-odnoklassniki .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-odnoklassniki .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff8321;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-odnoklassniki .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-odnoklassniki .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-odnoklassniki:hover .eapps-social-share-buttons-item-text * {
+  color: #ff8321;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pinterest::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pinterest::after {
+  background-color: #ea3145;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pinterest::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pinterest::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pinterest::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pinterest::after .eapps-social-share-buttons-item-icon * {
+  fill: #ea3145;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pinterest::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pinterest::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pinterest::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pinterest::after .eapps-social-share-buttons-item-text * {
+  color: #ea3145;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-pinterest .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-pinterest:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pinterest,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pinterest:hover {
+  border-color: #ea3145;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pinterest .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pinterest:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pinterest .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pinterest:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ea3145;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pinterest .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pinterest:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pinterest .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pinterest:hover .eapps-social-share-buttons-item-text * {
+  color: #ea3145;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pocket::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pocket::after {
+  background-color: #ff384b;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pocket::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pocket::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pocket::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pocket::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff384b;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pocket::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pocket::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-pocket::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-pocket::after .eapps-social-share-buttons-item-text * {
+  color: #ff384b;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-pocket .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-pocket:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pocket,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pocket:hover {
+  border-color: #ff384b;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pocket .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pocket:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pocket .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pocket:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff384b;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pocket .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pocket:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-pocket .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-pocket:hover .eapps-social-share-buttons-item-text * {
+  color: #ff384b;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-printfriendly::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-printfriendly::after {
+  background-color: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-printfriendly::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-printfriendly::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-printfriendly::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-printfriendly::after .eapps-social-share-buttons-item-icon * {
+  fill: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-printfriendly::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-printfriendly::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-printfriendly::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-printfriendly::after .eapps-social-share-buttons-item-text * {
+  color: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-printfriendly .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-printfriendly:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-printfriendly,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-printfriendly:hover {
+  border-color: #7cca00;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-printfriendly .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-printfriendly:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-printfriendly .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-printfriendly:hover .eapps-social-share-buttons-item-icon * {
+  fill: #7cca00;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-printfriendly .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-printfriendly:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-printfriendly .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-printfriendly:hover .eapps-social-share-buttons-item-text * {
+  color: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-print::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-print::after {
+  background-color: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-print::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-print::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-print::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-print::after .eapps-social-share-buttons-item-icon * {
+  fill: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-print::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-print::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-print::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-print::after .eapps-social-share-buttons-item-text * {
+  color: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-print .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-print:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-print,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-print:hover {
+  border-color: #7cca00;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-print .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-print:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-print .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-print:hover .eapps-social-share-buttons-item-icon * {
+  fill: #7cca00;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-print .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-print:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-print .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-print:hover .eapps-social-share-buttons-item-text * {
+  color: #7cca00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-qzone::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-qzone::after {
+  background-color: #fece00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-qzone::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-qzone::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-qzone::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-qzone::after .eapps-social-share-buttons-item-icon * {
+  fill: #fece00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-qzone::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-qzone::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-qzone::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-qzone::after .eapps-social-share-buttons-item-text * {
+  color: #fece00;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-qzone .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-qzone:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-qzone,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-qzone:hover {
+  border-color: #fece00;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-qzone .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-qzone:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-qzone .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-qzone:hover .eapps-social-share-buttons-item-icon * {
+  fill: #fece00;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-qzone .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-qzone:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-qzone .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-qzone:hover .eapps-social-share-buttons-item-text * {
+  color: #fece00;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-reddit::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-reddit::after {
+  background-color: #ff5c1f;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-reddit::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-reddit::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-reddit::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-reddit::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff5c1f;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-reddit::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-reddit::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-reddit::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-reddit::after .eapps-social-share-buttons-item-text * {
+  color: #ff5c1f;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-reddit .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-reddit:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-reddit,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-reddit:hover {
+  border-color: #ff5c1f;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-reddit .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-reddit:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-reddit .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-reddit:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff5c1f;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-reddit .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-reddit:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-reddit .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-reddit:hover .eapps-social-share-buttons-item-text * {
+  color: #ff5c1f;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-renren::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-renren::after {
+  background-color: #005fb1;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-renren::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-renren::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-renren::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-renren::after .eapps-social-share-buttons-item-icon * {
+  fill: #005fb1;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-renren::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-renren::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-renren::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-renren::after .eapps-social-share-buttons-item-text * {
+  color: #005fb1;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-renren .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-renren:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-renren,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-renren:hover {
+  border-color: #005fb1;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-renren .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-renren:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-renren .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-renren:hover .eapps-social-share-buttons-item-icon * {
+  fill: #005fb1;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-renren .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-renren:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-renren .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-renren:hover .eapps-social-share-buttons-item-text * {
+  color: #005fb1;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-skype::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-skype::after {
+  background-color: #06bcff;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-skype::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-skype::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-skype::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-skype::after .eapps-social-share-buttons-item-icon * {
+  fill: #06bcff;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-skype::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-skype::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-skype::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-skype::after .eapps-social-share-buttons-item-text * {
+  color: #06bcff;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-skype .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-skype:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-skype,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-skype:hover {
+  border-color: #06bcff;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-skype .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-skype:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-skype .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-skype:hover .eapps-social-share-buttons-item-icon * {
+  fill: #06bcff;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-skype .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-skype:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-skype .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-skype:hover .eapps-social-share-buttons-item-text * {
+  color: #06bcff;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-stumbleupon::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon::after {
+  background-color: #eb4924;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-stumbleupon::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-stumbleupon::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon::after .eapps-social-share-buttons-item-icon * {
+  fill: #eb4924;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-stumbleupon::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-stumbleupon::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon::after .eapps-social-share-buttons-item-text * {
+  color: #eb4924;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-stumbleupon .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-stumbleupon:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-stumbleupon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon:hover {
+  border-color: #eb4924;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-stumbleupon .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-stumbleupon .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon:hover .eapps-social-share-buttons-item-icon * {
+  fill: #eb4924;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-stumbleupon .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-stumbleupon .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-stumbleupon:hover .eapps-social-share-buttons-item-text * {
+  color: #eb4924;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-telegram::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-telegram::after {
+  background-color: #2ca5e0;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-telegram::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-telegram::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-telegram::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-telegram::after .eapps-social-share-buttons-item-icon * {
+  fill: #2ca5e0;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-telegram::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-telegram::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-telegram::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-telegram::after .eapps-social-share-buttons-item-text * {
+  color: #2ca5e0;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-telegram .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-telegram:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-telegram,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-telegram:hover {
+  border-color: #2ca5e0;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-telegram .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-telegram:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-telegram .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-telegram:hover .eapps-social-share-buttons-item-icon * {
+  fill: #2ca5e0;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-telegram .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-telegram:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-telegram .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-telegram:hover .eapps-social-share-buttons-item-text * {
+  color: #2ca5e0;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-tumblr::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-tumblr::after {
+  background-color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-tumblr::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-tumblr::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-tumblr::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-tumblr::after .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-tumblr::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-tumblr::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-tumblr::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-tumblr::after .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-tumblr .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-tumblr:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-tumblr,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-tumblr:hover {
+  border-color: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-tumblr .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-tumblr:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-tumblr .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-tumblr:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3e3e3e;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-tumblr .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-tumblr:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-tumblr .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-tumblr:hover .eapps-social-share-buttons-item-text * {
+  color: #3e3e3e;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-twitter::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-twitter::after {
+  background-color: #23abff;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-twitter::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-twitter::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-twitter::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-twitter::after .eapps-social-share-buttons-item-icon * {
+  fill: #23abff;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-twitter::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-twitter::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-twitter::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-twitter::after .eapps-social-share-buttons-item-text * {
+  color: #23abff;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-twitter .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-twitter:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-twitter,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-twitter:hover {
+  border-color: #23abff;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-twitter .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-twitter:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-twitter .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-twitter:hover .eapps-social-share-buttons-item-icon * {
+  fill: #23abff;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-twitter .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-twitter:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-twitter .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-twitter:hover .eapps-social-share-buttons-item-text * {
+  color: #23abff;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viadeo::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viadeo::after {
+  background-color: #ff7452;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viadeo::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viadeo::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viadeo::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viadeo::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff7452;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viadeo::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viadeo::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viadeo::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viadeo::after .eapps-social-share-buttons-item-text * {
+  color: #ff7452;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-viadeo .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-viadeo:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viadeo,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viadeo:hover {
+  border-color: #ff7452;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viadeo .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viadeo:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viadeo .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viadeo:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff7452;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viadeo .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viadeo:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viadeo .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viadeo:hover .eapps-social-share-buttons-item-text * {
+  color: #ff7452;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viber::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viber::after {
+  background-color: #9d62cc;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viber::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viber::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viber::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viber::after .eapps-social-share-buttons-item-icon * {
+  fill: #9d62cc;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viber::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viber::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-viber::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-viber::after .eapps-social-share-buttons-item-text * {
+  color: #9d62cc;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-viber .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-viber:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viber,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viber:hover {
+  border-color: #9d62cc;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viber .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viber:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viber .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viber:hover .eapps-social-share-buttons-item-icon * {
+  fill: #9d62cc;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viber .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viber:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-viber .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-viber:hover .eapps-social-share-buttons-item-text * {
+  color: #9d62cc;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-vkontakte::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-vkontakte::after {
+  background-color: #3673be;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-vkontakte::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-vkontakte::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-vkontakte::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-vkontakte::after .eapps-social-share-buttons-item-icon * {
+  fill: #3673be;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-vkontakte::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-vkontakte::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-vkontakte::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-vkontakte::after .eapps-social-share-buttons-item-text * {
+  color: #3673be;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-vkontakte .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-vkontakte:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-vkontakte,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-vkontakte:hover {
+  border-color: #3673be;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-vkontakte .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-vkontakte:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-vkontakte .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-vkontakte:hover .eapps-social-share-buttons-item-icon * {
+  fill: #3673be;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-vkontakte .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-vkontakte:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-vkontakte .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-vkontakte:hover .eapps-social-share-buttons-item-text * {
+  color: #3673be;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-weibo::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-weibo::after {
+  background-color: #ff3f3f;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-weibo::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-weibo::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-weibo::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-weibo::after .eapps-social-share-buttons-item-icon * {
+  fill: #ff3f3f;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-weibo::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-weibo::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-weibo::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-weibo::after .eapps-social-share-buttons-item-text * {
+  color: #ff3f3f;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-weibo .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-weibo:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-weibo,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-weibo:hover {
+  border-color: #ff3f3f;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-weibo .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-weibo:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-weibo .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-weibo:hover .eapps-social-share-buttons-item-icon * {
+  fill: #ff3f3f;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-weibo .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-weibo:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-weibo .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-weibo:hover .eapps-social-share-buttons-item-text * {
+  color: #ff3f3f;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-whatsapp::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-whatsapp::after {
+  background-color: #13d25a;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-whatsapp::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-whatsapp::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-whatsapp::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-whatsapp::after .eapps-social-share-buttons-item-icon * {
+  fill: #13d25a;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-whatsapp::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-whatsapp::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-whatsapp::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-whatsapp::after .eapps-social-share-buttons-item-text * {
+  color: #13d25a;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-whatsapp .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-whatsapp:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-whatsapp,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-whatsapp:hover {
+  border-color: #13d25a;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-whatsapp .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-whatsapp:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-whatsapp .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-whatsapp:hover .eapps-social-share-buttons-item-icon * {
+  fill: #13d25a;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-whatsapp .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-whatsapp:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-whatsapp .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-whatsapp:hover .eapps-social-share-buttons-item-text * {
+  color: #13d25a;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-xing::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-xing::after {
+  background-color: #20a5a5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-xing::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-xing::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-xing::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-xing::after .eapps-social-share-buttons-item-icon * {
+  fill: #20a5a5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-xing::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-xing::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-xing::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-xing::after .eapps-social-share-buttons-item-text * {
+  color: #20a5a5;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-xing .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-xing:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-xing,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-xing:hover {
+  border-color: #20a5a5;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-xing .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-xing:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-xing .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-xing:hover .eapps-social-share-buttons-item-icon * {
+  fill: #20a5a5;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-xing .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-xing:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-xing .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-xing:hover .eapps-social-share-buttons-item-text * {
+  color: #20a5a5;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yammer::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yammer::after {
+  background-color: #005ee2;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yammer::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yammer::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yammer::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yammer::after .eapps-social-share-buttons-item-icon * {
+  fill: #005ee2;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yammer::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yammer::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yammer::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yammer::after .eapps-social-share-buttons-item-text * {
+  color: #005ee2;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-yammer .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-yammer:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yammer,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yammer:hover {
+  border-color: #005ee2;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yammer .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yammer:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yammer .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yammer:hover .eapps-social-share-buttons-item-icon * {
+  fill: #005ee2;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yammer .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yammer:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yammer .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yammer:hover .eapps-social-share-buttons-item-text * {
+  color: #005ee2;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yummly::before,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yummly::after {
+  background-color: #fa6112;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yummly::before .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yummly::after .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yummly::before .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yummly::after .eapps-social-share-buttons-item-icon * {
+  fill: #fa6112;
+}
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yummly::before .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yummly::after .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-bg-color-native .eapps-social-share-buttons-item-yummly::before .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-bg-color-on-hover-native .eapps-social-share-buttons-item-yummly::after .eapps-social-share-buttons-item-text * {
+  color: #fa6112;
+}
+.eapps-social-share-buttons-bg-color-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-yummly .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-native:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item-yummly:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.08);
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yummly,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yummly:hover {
+  border-color: #fa6112;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yummly .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yummly:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yummly .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yummly:hover .eapps-social-share-buttons-item-icon * {
+  fill: #fa6112;
+}
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yummly .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yummly:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-native .eapps-social-share-buttons-item-yummly .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-native .eapps-social-share-buttons-item-yummly:hover .eapps-social-share-buttons-item-text * {
+  color: #fa6112;
+}
+.eapps-social-share-buttons-bg-color-white .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-bg-color-on-hover-white .eapps-social-share-buttons-item::after {
+  background: #fff;
+}
+.eapps-social-share-buttons-bg-color-white:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-white:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(0,0,0,0.04);
+}
+.eapps-social-share-buttons-icon-color-white .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-icon-color-on-hover-white .eapps-social-share-buttons-item:hover {
+  border-color: #fff;
+}
+.eapps-social-share-buttons-icon-color-white .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-white .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-white .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-white .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon * {
+  fill: #fff;
+}
+.eapps-social-share-buttons-icon-color-white .eapps-social-share-buttons-item .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-white .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-white .eapps-social-share-buttons-item .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-white .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-text * {
+  color: #fff;
+}
+.eapps-social-share-buttons-bg-color-black .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-bg-color-on-hover-black .eapps-social-share-buttons-item::after {
+  background: #222;
+}
+.eapps-social-share-buttons-bg-color-black:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon-container,
+.eapps-social-share-buttons-bg-color-on-hover-black:not(.eapps-social-share-buttons-text-hide) .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon-container {
+  background: rgba(255,255,255,0.1);
+}
+.eapps-social-share-buttons-icon-color-black .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-text-color-black .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-icon-color-on-hover-black .eapps-social-share-buttons-item:hover {
+  border-color: #222;
+}
+.eapps-social-share-buttons-icon-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-text-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-on-hover-black .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon,
+.eapps-social-share-buttons-icon-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-text-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-icon *,
+.eapps-social-share-buttons-icon-color-on-hover-black .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon * {
+  fill: #222;
+}
+.eapps-social-share-buttons-icon-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-text-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-on-hover-black .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-text,
+.eapps-social-share-buttons-icon-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-text-color-black .eapps-social-share-buttons-item .eapps-social-share-buttons-item-text *,
+.eapps-social-share-buttons-icon-color-on-hover-black .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-text * {
+  color: #222;
+}
+.eapps-social-share-buttons-style-default .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-style-default .eapps-social-share-buttons-item:hover {
+  box-shadow: none;
+  border-color: transparent;
+}
+.eapps-social-share-buttons-style-material .eapps-social-share-buttons-item {
+  border-color: transparent;
+  box-shadow: 0 0 2px rgba(0,0,0,0.14), 0 1px 4px rgba(0,0,0,0.28);
+}
+.eapps-social-share-buttons-style-material .eapps-social-share-buttons-item:hover {
+  border-color: transparent;
+  box-shadow: 0 0 3px rgba(0,0,0,0.16), 0 2px 6px rgba(0,0,0,0.32);
+}
+.eapps-social-share-buttons-style-flat .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-style-flat .eapps-social-share-buttons-item:hover {
+  border-color: transparent;
+}
+.eapps-social-share-buttons-style-flat .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-style-flat .eapps-social-share-buttons-item:hover::before,
+.eapps-social-share-buttons-style-flat .eapps-social-share-buttons-item::after,
+.eapps-social-share-buttons-style-flat .eapps-social-share-buttons-item:hover::after {
+  box-shadow: inset 0 -2px rgba(0,0,0,0.2);
+}
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item,
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item::before,
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item:hover::before,
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item::after,
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item:hover::after {
+  box-shadow: inset 0 0 1px rgba(0,0,0,0.6), inset 0 1px 0 1px rgba(255,255,255,0.3);
+}
+.eapps-social-share-buttons-style-classic .eapps-social-share-buttons-item:active {
+  box-shadow: none;
+}
+.eapps-social-share-buttons-animation-rotate .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon {
+  transform: scale(1.1) rotate(10deg);
+  transition: all 0.3s cubic-bezier(0.2, 0.26, 0, 1.78);
+}
+.eapps-social-share-buttons-animation-fly .eapps-social-share-buttons-item {
+  transition: all 0.3s cubic-bezier(0.2, 0.26, 0, 1.78);
+}
+.eapps-social-share-buttons-animation-fly .eapps-social-share-buttons-item:hover {
+  transform: translateY(-4px);
+}
+.eapps-social-share-buttons-animation-bounce .eapps-social-share-buttons-item:hover {
+  animation: eapps-animation-bounce 0.3s forwards;
+}
+.eapps-social-share-buttons-animation-zoom .eapps-social-share-buttons-item::before {
+  transition: none;
+}
+.eapps-social-share-buttons-animation-zoom .eapps-social-share-buttons-item::after {
+  transform: scale3d(0, 0, 0);
+  transition: all 0.3s ease;
+}
+.eapps-social-share-buttons-animation-zoom .eapps-social-share-buttons-item:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition: all 0.3s ease;
+}
+.eapps-social-share-buttons-animation-zoom .eapps-social-share-buttons-item:hover::before {
+  transition: all 0.3s ease 0.2s;
+  opacity: 0;
+}
+.eapps-social-share-buttons-animation-zoom .eapps-social-share-buttons-item:hover::after {
+  transform: scale3d(1, 1, 1);
+}
+.eapps-social-share-buttons-animation-slide .eapps-social-share-buttons-item {
+  overflow: hidden;
+}
+.eapps-social-share-buttons-animation-slide .eapps-social-share-buttons-item:hover .eapps-social-share-buttons-item-icon {
+  animation: eapps-animation-slide 0.3s forwards cubic-bezier(0.54, 0.74, 0.25, 1.3);
+}
+@-moz-keyframes eapps-animation-bounce {
+  40% {
+    transform: scale3d(0.9, 0.9, 1);
+  }
+  70% {
+    transform: scale3d(1.05, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes eapps-animation-bounce {
+  40% {
+    transform: scale3d(0.9, 0.9, 1);
+  }
+  70% {
+    transform: scale3d(1.05, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-o-keyframes eapps-animation-bounce {
+  40% {
+    transform: scale3d(0.9, 0.9, 1);
+  }
+  70% {
+    transform: scale3d(1.05, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes eapps-animation-bounce {
+  40% {
+    transform: scale3d(0.9, 0.9, 1);
+  }
+  70% {
+    transform: scale3d(1.05, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-moz-keyframes eapps-animation-slide {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes eapps-animation-slide {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@-o-keyframes eapps-animation-slide {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@keyframes eapps-animation-slide {
+  49% {
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+.eapps-social-share-buttons a.eapps-social-share-buttons-mobile-button-open,
+.eapps-social-share-buttons a.eapps-social-share-buttons-mobile-button-close,
+.eapps-social-share-buttons .eapps-social-share-buttons-mobile-text {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons {
+    top: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active {
+    width: 100%;
+    max-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: none;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active.eapps-social-share-buttons-shape-circle.eapps-social-share-buttons-text-hide.eapps-social-share-buttons-item {
+    width: initial;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active.eapps-social-share-buttons-icon-hide.eapps-social-share-buttons-item-text {
+    padding: 0 10px;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-inner {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s 0.3s;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-button-open {
+    cursor: default;
+    transform: scale(40);
+    background: #fff;
+    transition: transform linear 0.3s, background 0.7s;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-button-open:hover,
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-button-open:active {
+    transform: scale(40);
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-button-open-icon {
+    opacity: 0;
+    transition: opacity 0s 0s;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-button-close {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  .eapps-social-share-buttons-mobile-layout.eapps-social-share-buttons-mobile-active .eapps-social-share-buttons-mobile-text {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-item {
+    width: 100%;
+    max-width: 288px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-item {
+    max-width: 228px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-item-text {
+    text-align: center;
+    padding: 0 40px;
+  }
+}
+.eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-inner {
+  visibility: visible;
+  display: block;
+  margin: 20px auto;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-inner {
+    visibility: hidden;
+    opacity: 0;
+    width: 100% !important;
+    text-align: center;
+    max-height: 208px;
+    overflow-y: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-bottom-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-layout-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-text {
+    opacity: 0;
+    visibility: hidden;
+    font-size: 18px;
+    margin: 20px auto;
+    text-align: center;
+    color: #222;
+    transition: opacity 0.3s 0.3s;
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-overlay {
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-close {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: -60px;
+    margin-left: -20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+    background: rgba(34,34,34,0.7);
+    transition: transform ease-in-out 0.3s 0.5s, background 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    transform: scale(0);
+    z-index: 1;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-close-icon {
+    display: block;
+    height: 14px;
+    width: 14px;
+    fill: #fff;
+    margin: 13px;
+    opacity: 1;
+    transition: opacity 0.5s 0.5s;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-close:hover {
+    background: #222;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-close:active {
+    background: #222;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.3);
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-open {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    max-height: 40px;
+    margin: 20px 40px;
+    border-radius: 50%;
+    background: #222;
+    transition: transform linear 0.3s, background 0.3s 0.3s;
+    cursor: pointer;
+    text-align: center;
+    transform: scale(1);
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-open-icon {
+    display: block;
+    height: 16px;
+    width: 16px;
+    fill: #fff;
+    margin: 12px 13px 12px 11px;
+    opacity: 1;
+    transition: opacity 0.5s 0.5s;
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-open:hover {
+    transform: scale(1.1);
+  }
+  .eapps-social-share-buttons-mobile-layout .eapps-social-share-buttons-mobile-button-open:active {
+    transform: scale(1.3);
+  }
+}
